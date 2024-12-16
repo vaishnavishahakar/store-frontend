@@ -1,0 +1,35 @@
+.header{
+    text-align: center;
+}
+
+.item-input{
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 5px 10px;
+}
+
+.product-list{
+    width: 600px;
+    margin: 20px auto;
+}
+
+.btn-add-item{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color:cadetblue;
+    color: #fff;
+    border: none;
+}
+
+.home-icon{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    height: 40px;
+}

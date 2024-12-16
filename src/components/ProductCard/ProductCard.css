@@ -1,0 +1,38 @@
+.Product-card{
+    margin: 20px 40px;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.Product-quantity{
+    margin-left: 20px;
+}
+
+.btn-delete{
+    position: relative;
+    bottom: 20px;
+    left: 95%;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-edit{
+    position: relative;
+    bottom: 60px;
+    left: 90%;
+    background-color: rgb(11, 215, 11);
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
