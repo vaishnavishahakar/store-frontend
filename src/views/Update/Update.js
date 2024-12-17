@@ -15,7 +15,7 @@ function Add() {
   const { item } = useParams();
 
   const loadProductDetail = async (item) => {
-    const response = await axios.get(`http://localhost:5001/products/${item}`);
+    const response = await axios.get(`${process.env.REACT_APP_API_URL}/products/${item}`);
     setProduct(response.data.data);
   };
 
@@ -25,7 +25,7 @@ function Add() {
 
   const updateItem = async () => {
     try {
-      const response = await axios.patch(`https://store-backend-f2ej.onrender.com/products/${item}`, {
+      const response = await axios.patch(`${process.env.REACT_APP_API_URL}/products/${item}`, {
         quantity: product.quantity,
       });
 

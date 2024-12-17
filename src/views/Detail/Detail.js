@@ -9,7 +9,7 @@ function Detail() {
   const { item } = useParams();
 
   const loadProductDetail = async (item) => {
-    const response = await axios.get(`https://store-backend-f2ej.onrender.com/products/${item}`);
+    const response = await axios.get(`${process.env.REACT_APP_API_URL}/products/${item}`);
     setProduct(response.data.data);
   };
 

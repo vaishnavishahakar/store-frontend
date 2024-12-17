@@ -14,7 +14,8 @@ function Add() {
 
   const addItem = async () => {
     try {
-      const response = await axios.post("https://store-backend-f2ej.onrender.com/products", {
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/products`, 
+      {
         item: product.item,
         price: product.price,
         quantity: product.quantity,
