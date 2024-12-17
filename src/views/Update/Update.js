@@ -25,7 +25,7 @@ function Add() {
 
   const updateItem = async () => {
     try {
-      const response = await axios.patch(`http://localhost:5001/products/${item}`, {
+      const response = await axios.patch(`https://store-backend-f2ej.onrender.com/products/${item}`, {
         quantity: product.quantity,
       });
 

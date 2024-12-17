@@ -9,7 +9,7 @@ function Detail() {
   const { item } = useParams();
 
   const loadProductDetail = async (item) => {
-    const response = await axios.get(`http://localhost:5001/products/${item}`);
+    const response = await axios.get(`https://store-backend-f2ej.onrender.com/products/${item}`);
     setProduct(response.data.data);
   };
 

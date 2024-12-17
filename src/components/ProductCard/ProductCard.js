@@ -7,7 +7,7 @@ function ProductCard({item, price, quantity}) {
   const navigate = useNavigate();
 
   const deleteProduct = async(item)=>{
-    const response =  await axios.delete(`http://localhost:5001/products/${item}`);
+    const response =  await axios.delete(`https://store-backend-f2ej.onrender.com/products/${item}`);
     window.location.reload();
   }
 

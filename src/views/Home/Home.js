@@ -10,7 +10,7 @@ function App() {
 
 
   const loadProducts = async() => {
-    const response = await axios.get("http://localhost:5001/products");
+    const response = await axios.get("https://store-backend-f2ej.onrender.com/products");
     setProducts(response.data.data);
   };
 
