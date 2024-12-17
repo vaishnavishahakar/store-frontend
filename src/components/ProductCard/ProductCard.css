@@ -15,24 +15,14 @@
     position: relative;
     bottom: 20px;
     left: 95%;
-    background-color: red;
-    color: #fff;
-    border-radius: 20px;
-    padding: 5px 10px;
-    border: none;
+    height: 30px;
     cursor: pointer;
-    display: inline-block;
 }
 
 .btn-edit{
     position: relative;
     bottom: 60px;
-    left: 90%;
-    background-color: rgb(11, 215, 11);
-    color: #fff;
-    border-radius: 20px;
-    padding: 5px 10px;
-    border: none;
+    left: 93%;
+    height: 25px;
     cursor: pointer;
-    display: inline-block;
 }
